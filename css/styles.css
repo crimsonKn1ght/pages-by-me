@@ -93,14 +93,13 @@ p {
     align-items: center;
 }
 
-.pic {
+.pic, #farewell {
     margin: 30px;
     border-radius: 10px;
 }
 
 #farewell {
-    background-size: cover;
-    width: 1200px;
+    width: 100%;
     margin: 100px 0 0 0 ;
 }
 
