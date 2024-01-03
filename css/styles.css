@@ -1,0 +1,109 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: "comic sans ms", sans-serif;
+
+    text-align: center;
+    line-height: 1.6;
+
+    background: linear-gradient(lightskyblue, crimson);
+}
+
+/* left column */
+#container1 {
+    /* font */
+    font-family: Kanit, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+
+    /* positioning */
+    float: left;
+    position: fixed;
+
+    /* dimensions */
+    height: 100%;
+    width: 25%;
+
+    /* further adjustments */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px 0 0px;
+
+    /* background */
+    background: linear-gradient(rgb(1, 254, 39, 0.7), rgb(221, 255, 0, 0.7));
+
+    /* shadow around box */
+    box-shadow: 5px 5px 25px rgba(0,0,0,1);
+}
+
+/* right column */
+#container2 {
+    /* positionings */
+    float: right;
+    width: 70%;
+}
+
+#list {
+    text-align: left;
+    background: none;
+    font-size: 25px;
+    list-style-type: circle;
+}
+
+a {
+    /* removing ubderline */
+    text-decoration: none;
+
+    /* font */
+    color: #00000039;
+    text-shadow: 0.1px 0.1px 1px #000;
+}
+
+h2 {
+    /* bg */
+    background: -webkit-linear-gradient(rgb(12, 16, 241), rgb(212, 4, 4));
+
+    /* font gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* font */
+    font-size: 100px;
+}
+
+h3 {
+    /* all font */
+    color: #555;
+    font-size: 35px;
+    font-family: "Rubik Doodle Shadow", Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 2px black;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.parts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pic {
+    margin: 30px;
+    border-radius: 10px;
+}
+
+#farewell {
+    background-size: cover;
+    width: 1200px;
+    margin: 100px 0 0 0 ;
+}
+
+.smallpic {
+    width: 300px;
+}
